@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Bahiana|Open+Sans|Lora');
+
+body {
+ font-family: Open sans;
+  margin: auto;
+}
+
+.navbar-brand {
+  font-family: Bahiana;
+  font-size: 30px;
+  letter-spacing: 1px;
+  padding-top:17px;
+  color: #c9302c;
+}
+
+.navbar {
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  border-bottom: 5px solid;
+  border-color: #c9302c;
+  
+
+}
+h1 { 
+font-size: 48px;
+font-family: Bahiana;
+text-transform: uppercase;
+letter-spacing: 2px;
+text-align: center;
+color: white;
+}
+
+.social ul li{
+  display: inline-block;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.social {
+  width: 190px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+h2 { 
+font-size: 20px;
+letter-spacing: 1px;
+text-align: center;
+color: white;
+  padding-bottom: 10px;
+}
+
+em {
+  font-family: 'Lora';
+}
+
+.icones {
+  padding: 10px;
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 30px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.image-fond {
+    padding: 10px;
+    position: relative;
+    padding-top: 60px;
+    height: 400px;
+    background: url(https://i.imgsafe.org/4995e1eefe.jpg);
+    background-size: cover;
+    background-pisition: center;
+    background-attachment: fixed;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+}
+
+.fa {
+  transition: all 0.3s;
+}
+.fa:hover {
+  color: white;
+}
+
+footer {
+  background-color: #c9302c;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.formulaire {
+  padding: 30px;
+}
+
+.formulaire h1 {
+  color: #c9302c;
+}
